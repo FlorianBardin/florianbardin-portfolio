@@ -1,7 +1,7 @@
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import React from "react";
 import Link from "next/link";
-import MobileDock from "./mobile-dock";
+import MobileDock from "../src/components/mobile-dock";
 
 const Navbar = () => {
   return (
@@ -18,9 +18,9 @@ const Navbar = () => {
         />
       </svg>
       <nav className="hidden md:flex gap-6 text-muted-foreground font-medium">
-        <Link href="#parcours">Parcours</Link>
-        <Link href="#projets">Projets</Link>
-        <Link href="#outils">Outils</Link>
+        <Link href="#journey">Parcours</Link>
+        <Link href="#projects">Projets</Link>
+        <Link href="#tools">Outils</Link>
         <Link href="#contact">Contact</Link>
       </nav>
 
