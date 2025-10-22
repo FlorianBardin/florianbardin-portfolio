@@ -119,9 +119,23 @@
   body {
     @apply bg-background text-foreground;
   }
+  h1 {
+    @apply font-bold text-[2.027rem] lg:text-[2.986rem];
+  }
+  h2 {
+    @apply font-bold text-[1.802rem] lg:text-[2.488rem];
+  }
+  h3 {
+    @apply font-bold text-[1.602rem] lg:text-[2.074rem];
+  }
 }
 
-::view-transition-old(root), ::view-transition-new(root) {
-    animation: none;
-    mix-blend-mode: normal;
+@utility highl {
+  @apply text-foreground;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
 }
