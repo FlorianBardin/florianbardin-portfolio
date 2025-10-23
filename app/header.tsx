@@ -23,13 +23,15 @@ const Header = () => {
         .
       </h1>
       <p className="text-muted-foreground text-center font-medium">
-        Actuellement <span className="highl">étudiant</span> à{" "}
-        <span className="highl">Reims</span>, je{" "}
-        <span className="highl">conçois des expériences digitales simples</span>{" "}
-        et <span className="highl">agréables</span> à utiliser. J’aime{" "}
-        <span className="highl">explorer de nouvelles technologies</span> et
+        Actuellement <span className="bright">étudiant</span> à{" "}
+        <span className="bright">Reims</span>, je{" "}
+        <span className="bright">
+          conçois des expériences digitales simples
+        </span>{" "}
+        et <span className="bright">agréables</span> à utiliser. J’aime{" "}
+        <span className="bright">explorer de nouvelles technologies</span> et
         méthodes de travail pour{" "}
-        <span className="highl">constamment progresser</span>.
+        <span className="bright">constamment progresser</span>.
       </p>
       <Button className="w-fit self-center" asChild>
         <Link href="https://github.com/FlorianBardin">

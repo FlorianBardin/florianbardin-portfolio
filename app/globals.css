@@ -130,8 +130,12 @@
   }
 }
 
-@utility highl {
+@utility bright {
   @apply text-foreground;
+}
+
+@utility hover-link {
+  @apply hover:text-foreground transition;
 }
 
 ::view-transition-old(root),
