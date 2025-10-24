@@ -36,9 +36,9 @@ const steps = [
 const Timeline = () => {
   return (
     // Créer une grid à la place du flex
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:flex-wrap lg:flex-row overflow-scroll">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
       {steps.map((step, i) => (
-        <Card className="" key={i}>
+        <Card key={i}>
           <CardHeader>
             <div className="flex flex-col-reverse justify-start gap-5">
               <CardTitle>{step.title}</CardTitle>
