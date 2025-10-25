@@ -128,6 +128,12 @@
   h3 {
     @apply font-bold text-[1.602rem] lg:text-[2.074rem];
   }
+  h4 {
+    @apply font-bold text-[1.424rem] lg:text-[1.728rem];
+  }
+  h5 {
+    @apply font-bold text-[1rem] lg:text-[1.2rem];
+  }
 }
 
 @utility bright {
