@@ -5,19 +5,19 @@ import { ChevronsLeftRightEllipsis, Route, Send, ToolCase } from "lucide-react";
 
 const MobileDock = () => {
   return (
-    <Dock className="fixed bottom-6 left-0 right-0 z-50 flex justify-around gap-4 backdrop-blur-md md:hidden">
+    <Dock className="fixed bottom-0 left-0 right-0 z-50 flex justify-around gap-4 backdrop-blur-md md:hidden">
       <DockIcon>
-        <Link href="#parcours">
+        <Link href="#journey">
           <Route />
         </Link>
       </DockIcon>
       <DockIcon>
-        <Link href="#projets">
+        <Link href="#projects">
           <ChevronsLeftRightEllipsis />
         </Link>
       </DockIcon>
       <DockIcon>
-        <Link href="#outils">
+        <Link href="#tools">
           <ToolCase />
         </Link>
       </DockIcon>
