@@ -30,7 +30,7 @@ const Tools = () => {
         </div>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-2">
+      <div className="grid gap-4 lg:grid-cols-2">
         <ToolsSection title="🎨 Front-end" tools={frontTools} />
         <ToolsSection title="🛠️ Back-end" tools={backTools} />
         <ToolsSection title="🗄️ Base de données" tools={dataTools} />
