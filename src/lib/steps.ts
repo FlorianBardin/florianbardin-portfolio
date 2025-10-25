@@ -15,17 +15,17 @@ export const steps: stepType[] = [
   {
     title: "BUT Informatique 1ère année 👨‍💻",
     date: "Septembre 2024 - Juin 2025",
-    location: "IUT Reims-Chalons-Charleville",
+    location: "IUT Reims-Chalons-Charleville, Reims",
   },
   {
     title: "Cuviste 🍾",
-    date: "Juillet-Aout 2025",
+    date: "Juillet - Aout 2025",
     location: "Champagne Bollinger, Ay",
   },
   {
     title: "BUT Informatique 2ème année 👨‍💻",
     date: "Septembre 2025 - Juin 2026",
-    location: "IUT Reims-Chalons-Charleville",
+    location: "IUT Reims-Chalons-Charleville, Reims",
     desc: "Spécilisation développement (C++)",
   },
 ];
