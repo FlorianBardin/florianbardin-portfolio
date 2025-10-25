@@ -2,6 +2,7 @@ import Header from "./header";
 import Journey from "./journey";
 import Navbar from "./navbar";
 import Projects from "./projects";
+import Tools from "./tools";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Journey />
       <Projects />
+      <Tools />
     </div>
   );
 }
