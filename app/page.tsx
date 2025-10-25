@@ -1,3 +1,4 @@
+import Contact from "./contact";
 import Header from "./header";
 import Journey from "./journey";
 import Navbar from "./navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Journey />
       <Projects />
       <Tools />
+      <Contact />
     </div>
   );
 }
