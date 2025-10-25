@@ -15,7 +15,7 @@ const Contact = () => {
           src="Contact.svg"
           alt="Contact logo"
         />
-        <h3>Contact</h3>
+        <h3 id="contact">Contact</h3>
       </div>
       <div className="flex flex-col justify-center items-center gap-6 my-10 px-5 md:my-15">
         <h2 className="text-center">Contactez-moi 📲</h2>

@@ -22,7 +22,7 @@ const Tools = () => {
             src="tools.svg"
             alt="Tools logo"
           />
-          <h3>Outils</h3>
+          <h3 id="tools">Outils</h3>
         </div>
         <div className="space-x-2">
           <Badge>Utilisation régulière</Badge>

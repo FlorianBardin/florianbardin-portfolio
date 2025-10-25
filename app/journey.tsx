@@ -13,7 +13,7 @@ const Journey = () => {
           src="journey.svg"
           alt="Journey logo"
         />
-        <h3>Parcours</h3>
+        <h3 id="journey">Parcours</h3>
       </div>
       <Timeline />
     </div>

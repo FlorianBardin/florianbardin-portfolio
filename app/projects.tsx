@@ -13,7 +13,7 @@ const Projects = () => {
           src="projects.svg"
           alt="Projects logo"
         />
-        <h3>Projets</h3>
+        <h3 id="projects">Projets</h3>
       </div>
       <ProjectsGrid />
     </div>
