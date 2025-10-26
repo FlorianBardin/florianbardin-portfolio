@@ -7,11 +7,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 type SectionType = {
   title: string;
   tools: Tool[];
+  className?: string;
 };
 
 const ToolsSection = (props: SectionType) => {
   return (
-    <Card>
+    <Card className={props.className}>
       <CardHeader>
         <CardTitle>{props.title}</CardTitle>
       </CardHeader>

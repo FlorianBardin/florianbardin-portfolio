@@ -13,7 +13,7 @@ import React from "react";
 const Tools = () => {
   return (
     <section className="flex flex-col gap-4 scroll-mt-20" id="tools">
-      <div className="flex items-center justify-between lg:justify-start lg:gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between lg:justify-start lg:gap-4">
         <div className="flex items-center gap-2 lg:gap-3">
           <Image
             className="h-4 w-4 lg:h-5 lg:w-5"
@@ -35,7 +35,11 @@ const Tools = () => {
         <ToolsSection title="🛠️ Back-end" tools={backTools} />
         <ToolsSection title="🗄️ Base de données" tools={dataTools} />
         <ToolsSection title="🧰 Logiciels" tools={softwareTools} />
-        <ToolsSection title="Autres" tools={otherTools} />
+        <ToolsSection
+          className="lg:col-span-2"
+          title="Autres"
+          tools={otherTools}
+        />
       </div>
     </section>
   );
