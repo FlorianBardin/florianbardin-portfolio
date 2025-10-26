@@ -6,7 +6,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 scroll-mt-20" id="contact">
       <div className="flex gap-2 items-center lg:gap-3">
         <Image
           className="h-4 w-4 lg:h-5 lg:w-5"
@@ -15,7 +15,7 @@ const Contact = () => {
           src="Contact.svg"
           alt="Contact logo"
         />
-        <h3 id="contact">Contact</h3>
+        <h3>Contact</h3>
       </div>
       <div className="flex flex-col justify-center items-center gap-6 my-10 px-5 md:my-15">
         <h2 className="text-center">Contactez-moi 📲</h2>

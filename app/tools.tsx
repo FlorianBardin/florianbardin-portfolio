@@ -12,7 +12,7 @@ import React from "react";
 
 const Tools = () => {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 scroll-mt-20" id="tools">
       <div className="flex items-center justify-between lg:justify-start lg:gap-4">
         <div className="flex items-center gap-2 lg:gap-3">
           <Image
@@ -22,7 +22,7 @@ const Tools = () => {
             src="tools.svg"
             alt="Tools logo"
           />
-          <h3 id="tools">Outils</h3>
+          <h3>Outils</h3>
         </div>
         <div className="space-x-2">
           <Badge>Utilisation régulière</Badge>
