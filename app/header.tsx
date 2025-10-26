@@ -6,7 +6,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 my-20 px-5 sm:px-20 md:my-30 md:px-30 lg:px-35">
+    <header className="flex flex-col justify-center gap-10 my-20 px-5 sm:px-20 md:my-30 md:px-30 lg:px-35">
       <h1 className="text-center">
         <Highlighter
           iterations={2}
@@ -39,7 +39,7 @@ const Header = () => {
           Voir sur GitHub
         </Link>
       </Button>
-    </div>
+    </header>
   );
 };
 

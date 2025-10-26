@@ -12,7 +12,7 @@ import React from "react";
 
 const Tools = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4">
       <div className="flex items-center justify-between lg:justify-start lg:gap-4">
         <div className="flex items-center gap-2 lg:gap-3">
           <Image
@@ -37,7 +37,7 @@ const Tools = () => {
         <ToolsSection title="🧰 Logiciels" tools={softwareTools} />
         <ToolsSection title="Autres" tools={otherTools} />
       </div>
-    </div>
+    </section>
   );
 };
 
