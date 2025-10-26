@@ -23,7 +23,6 @@ const Header = () => {
         <Highlighter action="circle" color="#FFA400" padding={4}>
           web
         </Highlighter>
-        .
       </h1>
       <p className="text-muted-foreground text-center font-medium">
         Actuellement <span className="bright">étudiant</span> à{" "}
@@ -39,7 +38,7 @@ const Header = () => {
       <Button className="w-fit self-center" asChild>
         <Link href="https://github.com/FlorianBardin">
           <Github className="h-4 w-4" />
-          Voir sur GitHub
+          Mon GitHub
         </Link>
       </Button>
     </header>
