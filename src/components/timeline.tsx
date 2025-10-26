@@ -12,7 +12,7 @@ import { steps } from "@/lib/steps";
 const Timeline = () => {
   const timelineSteps = steps;
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+    <div className="grid md:grid-cols-4 gap-3">
       {timelineSteps.map((step, i) => (
         <Card key={i}>
           <CardHeader>
