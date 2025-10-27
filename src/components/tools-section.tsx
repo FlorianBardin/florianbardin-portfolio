@@ -1,8 +1,7 @@
 import React from "react";
-import { Badge } from "./ui/badge";
-import Image from "next/image";
 import { Tool } from "@/lib/tools";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import ToolBadge from "./tool-badge";
 
 type SectionType = {
   title: string;
@@ -19,22 +18,7 @@ const ToolsSection = (props: SectionType) => {
       <CardContent>
         <div className="flex gap-1.5 flex-wrap">
           {props.tools.map((tool, i) => {
-            return (
-              <Badge key={i} variant={tool.use}>
-                {tool.image ? (
-                  <Image
-                    width="5"
-                    height="5"
-                    className="h-2.5 w-fit"
-                    src={tool.image}
-                    alt="Logo"
-                  />
-                ) : (
-                  ""
-                )}
-                {tool.name}
-              </Badge>
-            );
+            return <ToolBadge key={i} delay={i} tool={tool} />;
           })}
         </div>
       </CardContent>
