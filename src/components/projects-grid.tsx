@@ -1,7 +1,6 @@
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { BookUser, Gamepad2, Satellite, SquareKanban } from "lucide-react";
 import { Safari } from "./ui/safari";
-import { cn } from "@/lib/utils";
 
 const features = [
   {
@@ -74,7 +73,7 @@ export function ProjectsGrid() {
   return (
     <BentoGrid className="grid md:grid-cols-2 lg:grid-cols-4">
       {features.map((feature, i) => {
-        return <BentoCard key={feature.name} {...feature} />;
+        return <BentoCard key={i} {...feature} />;
       })}
     </BentoGrid>
   );
