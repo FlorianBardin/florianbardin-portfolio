@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning lang="en" className="h-full">
-      <body className={cn(inter, "antialiased", "h-full")}>
+      <body className={cn(inter, "flex flex-col antialiased min-h-screen")}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
