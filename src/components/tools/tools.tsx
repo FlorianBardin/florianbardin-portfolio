@@ -1,4 +1,4 @@
-import ToolsSection from "@/components/tools-section";
+import ToolsSection from "@/components/tools/tools-section";
 import { Badge } from "@/components/ui/badge";
 import {
   backTools,
