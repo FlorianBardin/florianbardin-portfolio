@@ -1,9 +1,9 @@
-import Contact from "./contact";
-import Header from "./header";
-import Journey from "./journey";
-import Navbar from "./navbar";
-import Projects from "./projects";
-import Tools from "./tools";
+import Contact from "@/components/contact";
+import Header from "@/components/header";
+import Journey from "@/components/journey/journey";
+import Navbar from "@/components/navbar/navbar";
+import Projects from "@/components/projects/projects";
+import Tools from "@/components/tools/tools";
 
 export default function Home() {
   return (

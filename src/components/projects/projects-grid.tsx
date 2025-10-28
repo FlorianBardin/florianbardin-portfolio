@@ -1,6 +1,6 @@
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { BookUser, Gamepad2, Satellite, SquareKanban } from "lucide-react";
-import { Safari } from "./ui/safari";
+import { Safari } from "../ui/safari";
 
 const features = [
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Dock, DockIcon } from "./ui/dock";
+import { Dock, DockIcon } from "../ui/dock";
 import Link from "next/link";
 import { ChevronsLeftRightEllipsis, Route, Send, ToolCase } from "lucide-react";
 
