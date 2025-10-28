@@ -1,7 +1,7 @@
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import React from "react";
 import Link from "next/link";
-import MobileDock from "../src/components/mobile-dock";
+import MobileDock from "./mobile-dock";
 
 const Navbar = () => {
   return (
