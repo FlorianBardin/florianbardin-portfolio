@@ -19,7 +19,7 @@ type TimelineCardProps = {
 
 const TimelineCard = ({ step, delay }: TimelineCardProps) => {
   return (
-    <AnimatedContent delay={0.1 * delay}>
+    <AnimatedContent delay={0.05 * delay}>
       <Card className="h-full">
         <CardHeader>
           <div className="flex flex-col-reverse justify-start gap-5">
