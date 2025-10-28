@@ -12,6 +12,11 @@ A portfolio website showcasing my journey, projects, tools, and contact informat
 - **Tools**: A section grouping different tool categories.
 - **Contact**: A section with my contact details, and a contact form (coming soon).
 
+## ▶️ Coming Soon
+
+- **Contact Form**
+- **English Version**
+
 ## 🛠️ Installation & Usage
 
 ### Requirements
