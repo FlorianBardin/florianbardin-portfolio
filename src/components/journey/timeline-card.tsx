@@ -1,15 +1,15 @@
 "use client";
 
 import React from "react";
-import AnimatedContent from "./AnimatedContent";
+import AnimatedContent from "../AnimatedContent";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./ui/card";
-import { Badge } from "./ui/badge";
+} from "../ui/card";
+import { Badge } from "../ui/badge";
 import { stepType } from "@/lib/steps";
 
 type TimelineCardProps = {
