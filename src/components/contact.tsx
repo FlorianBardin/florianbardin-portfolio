@@ -1,5 +1,3 @@
-import Timeline from "@/components/journey/timeline";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -12,7 +10,7 @@ const Contact = () => {
           className="h-4 w-4 lg:h-5 lg:w-5"
           width={17}
           height={17}
-          src="Contact.svg"
+          src="contact.svg"
           alt="Contact logo"
         />
         <h3>Contact</h3>
