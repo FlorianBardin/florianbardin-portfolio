@@ -1,4 +1,4 @@
-import Timeline from "@/components/timeline";
+import Timeline from "@/components/journey/timeline";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
