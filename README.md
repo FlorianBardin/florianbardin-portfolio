@@ -1,16 +1,16 @@
 # florianbardin.dev
 
-A portfolio website showcasing my background, projects, tools, and contact information. This site is built with Next.js, Tailwind CSS, Shadcn/ui, and Magic UI.
+A portfolio website showcasing my journey, projects, tools, and contact information. This site is built with **Next.js**, **Tailwind CSS**, **Shadcn/ui**, and **Magic UI**.
 
 > [!NOTE]
 > You can access it now [here]()!
 
 ## ⚙️ Features
 
-- **Background**: A section detailing my background and experience.
-- **Projects**: A grid showcasing my various projects.
+- **Background**: A section detailing my journey and experience.
+- **Projects**: A grid showcasing my projects.
 - **Tools**: A section grouping different tool categories.
-- **Contact**: A section with my various contact details, and a contact form (coming soon).
+- **Contact**: A section with my contact details, and a contact form (coming soon).
 
 ## 🛠️ Installation & Usage
 
