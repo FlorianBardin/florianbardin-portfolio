@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ProjectsGrid } from "@/components/projects-grid";
+import { ProjectsGrid } from "@/components/projects/projects-grid";
 
 const Projects = () => {
   return (
