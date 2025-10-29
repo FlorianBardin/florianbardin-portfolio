@@ -14,12 +14,11 @@ import { stepType } from "@/lib/steps";
 
 type TimelineCardProps = {
   step: stepType;
-  delay: number;
 };
 
-const TimelineCard = ({ step, delay }: TimelineCardProps) => {
+const TimelineCard = ({ step }: TimelineCardProps) => {
   return (
-    <AnimatedContent delay={0.05 * delay}>
+    <AnimatedContent>
       <Card className="h-full">
         <CardHeader>
           <div className="flex flex-col-reverse justify-start gap-5">
