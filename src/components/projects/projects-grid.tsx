@@ -9,7 +9,7 @@ const features = [
     description:
       "Site web portfolio regroupant mon parcours, mes projets, mes outils ainsi que mon contact.",
     href: "https://github.com/FlorianBardin/florianbardin-portfolio",
-    cta: "Voir en détail",
+    cta: "Voir sur GitHub",
     background: (
       <Safari
         url="florianbardin.dev"
@@ -25,7 +25,7 @@ const features = [
     description:
       "Application web de visualisation des données de l'API APOD de la Nasa.",
     href: "https://github.com/FlorianBardin/APOD-viewer",
-    cta: "Voir en détail",
+    cta: "Voir sur GitHub",
     background: (
       <Safari
         url="apod-viewer-iota.vercel.app"
@@ -41,7 +41,7 @@ const features = [
     description:
       "Application web permettant de gérer des tableaux Kanban dans le stockage local du navigateur.",
     href: "https://github.com/FlorianBardin/task-flow",
-    cta: "Voir en détail",
+    cta: "Voir sur GitHub",
     background: (
       <Safari
         url="task-flow-nine-alpha.vercel.app"
@@ -57,7 +57,7 @@ const features = [
     description:
       "Application web CRUD PHP réalisé en duo dans le cadre d'une SAÉ de BUT INFO.",
     href: "https://github.com/FlorianBardin/steam-game-crud",
-    cta: "Voir en détail",
+    cta: "Voir sur GitHub",
     background: (
       <Safari
         url="steam-game-crud.app"

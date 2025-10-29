@@ -5,9 +5,9 @@ import TimelineCard from "./timeline-card";
 const Timeline = () => {
   const timelineSteps = steps;
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
-      {timelineSteps.map((step, i) => (
-        <TimelineCard key={i} delay={i} step={step} />
+    <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-3">
+      {timelineSteps.toReversed().map((step, i) => (
+        <TimelineCard key={i} step={step} />
       ))}
     </div>
   );
