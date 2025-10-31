@@ -33,7 +33,7 @@ const Tools = () => {
       <div className="grid gap-4 lg:grid-cols-2">
         <ToolsSection title="🎨 Front-end" tools={frontTools} />
         <ToolsSection title="🛠️ Back-end" tools={backTools} />
-        <ToolsSection title="🗄️ Base de données" tools={dataTools} />
+        <ToolsSection title="🗄️ Bases de données" tools={dataTools} />
         <ToolsSection title="🧰 Logiciels" tools={softwareTools} />
         <ToolsSection
           className="lg:col-span-2"
