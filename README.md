@@ -3,7 +3,7 @@
 A portfolio website showcasing my journey, projects, tools, and contact information. This site is built with **Next.js**, **Tailwind CSS**, **Shadcn/ui**, and **Magic UI**.
 
 > [!NOTE]
-> You can access it now [here]()!
+> You can access it now [here](florianbardin.dev)!
 
 ## ⚙️ Features
 
