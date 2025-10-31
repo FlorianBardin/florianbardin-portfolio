@@ -76,23 +76,18 @@ export const backTools: Tool[] = [
 
 export const dataTools: Tool[] = [
   {
-    name: "Oracle",
-    image: "/tools/data/oracle.svg",
+    name: "SQL - PL/SQL",
+    image: "/tools/data/sql.svg",
     use: "default",
   },
   {
-    name: "SQL Developer",
-    image: "/tools/data/sqldev.png",
+    name: "SGBDR (Oracle - MySQL)",
+    image: "/tools/data/sgbd.svg",
     use: "default",
   },
   {
-    name: "MySQL",
-    image: "/tools/data/mysql.png",
-    use: "secondary",
-  },
-  {
-    name: "PHPMyAdmin",
-    image: "/tools/data/pma.png",
+    name: "NoSQL (MongoDb)",
+    image: "/tools/data/nosql.svg",
     use: "secondary",
   },
   {
