@@ -123,13 +123,13 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply font-bold text-[2.027rem] lg:text-[2.986rem];
+    @apply font-bold text-[2.027rem] md:text-[2.500rem] lg:text-[2.986rem];
   }
   h2 {
     @apply font-bold text-[1.802rem] lg:text-[2.488rem];
   }
   h3 {
-    @apply font-bold text-[1.602rem] lg:text-[2.074rem];
+    @apply font-bold text-[1.602rem] md:text-[1.800rem] lg:text-[2.074rem];
   }
   h4 {
     @apply font-bold text-[1.424rem] lg:text-[1.728rem];
