@@ -6,7 +6,7 @@ import MobileDock from "./mobile-dock";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center backdrop-blur-md bg-background/80 py-6 px-8 sm:px-10 md:px-16 lg:px-28 border-b">
+      <div className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center backdrop-blur-md bg-background/80 py-6 px-8 md:px-16 lg:px-28 border-b">
         <Link href="#header">
           <svg
             className="h-6 w-6"
