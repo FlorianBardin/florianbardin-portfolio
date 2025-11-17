@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Highlighter } from "@/components/ui/highlighter";
 import { Github } from "lucide-react";
@@ -7,7 +9,7 @@ import React from "react";
 const Header = () => {
   return (
     <header
-      className="flex flex-col justify-center gap-10 my-20 px-5 scroll-mt-30 sm:px-20 md:my-30 md:px-30 lg:px-35"
+      className="flex flex-col h-screen justify-center gap-10 px-5 scroll-mt-30 sm:px-20 md:px-20 lg:px-35"
       id="header"
     >
       <h1 className="text-center">
