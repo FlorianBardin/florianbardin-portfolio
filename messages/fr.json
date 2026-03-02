@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Florian Bardin",
+    "description": "Je m'appelle Florian Bardin, passioné par le développement web et étudiant en informatique à l'IUT de Reims."
+  },
+  "navigation": {
+    "journey": "Parcours",
+    "projects": "Projets",
+    "tools": "Outils",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Florian Bardin – Étudiant en informatique et concepteur d'expériences web",
+    "subtitle": "Actuellement <b>étudiant</b> à <b>Reims</b>, je <b>conçois des expériences digitales simples</b> et <b>agréables</b> à utiliser. J'aime <b>explorer de nouvelles technologies</b> et méthodes de travail pour <b>constamment progresser</b>.",
+    "github": "Mon GitHub"
+  },
+  "journey": {
+    "sectionTitle": "Parcours",
+    "steps": [
+      {
+        "title": "Baccalauréat Général 📚",
+        "date": "Juin 2024",
+        "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
+        "desc": "Mathématiques, Numérique et Sciences de l'Informatique"
+      },
+      {
+        "title": "BUT Informatique 1ère année 👨‍💻",
+        "date": "Septembre 2024 - Juin 2025",
+        "location": "IUT Reims-Châlons-Charleville, Reims"
+      },
+      {
+        "title": "Cuviste 🍾",
+        "date": "Juillet - Août 2025",
+        "location": "Champagne Bollinger, Aÿ"
+      },
+      {
+        "title": "BUT Informatique 2ème année 👨‍💻",
+        "date": "Septembre 2025 - Juin 2026",
+        "location": "IUT Reims-Châlons-Charleville, Reims",
+        "desc": "Spécialisation développement (C++)"
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Projets",
+    "cta": "Voir sur GitHub",
+    "items": {
+      "portfolio": {
+        "name": "florianbardin.dev",
+        "description": "Site web portfolio regroupant mon parcours, mes projets, mes outils ainsi que mon contact."
+      },
+      "apod": {
+        "name": "APOD Viewer",
+        "description": "Application web de visualisation des données de l'API APOD de la Nasa."
+      },
+      "taskflow": {
+        "name": "Task Flow",
+        "description": "Application web permettant de gérer des tableaux Kanban dans le stockage local du navigateur."
+      },
+      "steamcrud": {
+        "name": "Steam Game CRUD",
+        "description": "Application web CRUD PHP réalisé en duo dans le cadre d'une SAÉ de BUT INFO."
+      }
+    }
+  },
+  "tools": {
+    "sectionTitle": "Outils",
+    "regularUsage": "Utilisation régulière",
+    "occasionalUsage": "Utilisation occasionnel",
+    "sections": {
+      "frontend": "🎨 Front-end",
+      "backend": "🛠️ Back-end",
+      "databases": "🗄️ Bases de données",
+      "software": "🧰 Logiciels",
+      "other": "Autres"
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Contactez-moi 📲",
+    "description": "Un formulaire de contact sera bientôt disponible. Pour le moment vous pouvez me joindre sur <linkedin>Linkedin</linkedin> ou bien directement via mon mail <email>fbardin51@gmail.com</email>."
+  },
+  "footer": {
+    "copyright": "© 2025 Florian Bardin. Tous droits réservés."
+  },
+  "notFound": {
+    "title": "404 • Mauvaise route",
+    "description": "Cette page est introuvable, vous vous êtes sûrement perdus.",
+    "back": "Retourner en lieu sûr"
+  }
+}
