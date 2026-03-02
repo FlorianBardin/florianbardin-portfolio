@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "title": "Florian Bardin",
+    "description": "My name is Florian Bardin, passionate about web development and a computer science student at IUT de Reims."
+  },
+  "navigation": {
+    "journey": "Journey",
+    "projects": "Projects",
+    "tools": "Tools",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Florian Bardin – Computer science student and web experience designer",
+    "subtitle": "Currently a <b>student</b> in <b>Reims</b>, I <b>craft simple digital experiences</b> that are <b>pleasant</b> to use. I enjoy <b>exploring new technologies</b> and working methods to <b>constantly improve</b>.",
+    "github": "My GitHub"
+  },
+  "journey": {
+    "sectionTitle": "Journey",
+    "steps": [
+      {
+        "title": "High School Diploma 📚",
+        "date": "June 2024",
+        "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
+        "desc": "Mathematics, Digital Technology & Computer Science"
+      },
+      {
+        "title": "Bachelor's in Computer Science – Year 1 👨‍💻",
+        "date": "September 2024 - June 2025",
+        "location": "IUT Reims-Châlons-Charleville, Reims"
+      },
+      {
+        "title": "Cellar Worker 🍾",
+        "date": "July - August 2025",
+        "location": "Champagne Bollinger, Aÿ"
+      },
+      {
+        "title": "Bachelor's in Computer Science – Year 2 👨‍💻",
+        "date": "September 2025 - June 2026",
+        "location": "IUT Reims-Châlons-Charleville, Reims",
+        "desc": "Development specialisation (C++)"
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "cta": "View on GitHub",
+    "items": {
+      "portfolio": {
+        "name": "florianbardin.dev",
+        "description": "Portfolio website showcasing my journey, projects, tools and contact information."
+      },
+      "apod": {
+        "name": "APOD Viewer",
+        "description": "Web application to visualise data from NASA's APOD API."
+      },
+      "taskflow": {
+        "name": "Task Flow",
+        "description": "Web application for managing Kanban boards stored in the browser's local storage."
+      },
+      "steamcrud": {
+        "name": "Steam Game CRUD",
+        "description": "PHP CRUD web application built in pairs as part of a BUT INFO university project."
+      }
+    }
+  },
+  "tools": {
+    "sectionTitle": "Tools",
+    "regularUsage": "Regular use",
+    "occasionalUsage": "Occasional use",
+    "sections": {
+      "frontend": "🎨 Front-end",
+      "backend": "🛠️ Back-end",
+      "databases": "🗄️ Databases",
+      "software": "🧰 Software",
+      "other": "Other"
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Get in touch 📲",
+    "description": "A contact form will be available soon. In the meantime you can reach me on <linkedin>Linkedin</linkedin> or directly via email at <email>fbardin51@gmail.com</email>."
+  },
+  "footer": {
+    "copyright": "© 2025 Florian Bardin. All rights reserved."
+  },
+  "notFound": {
+    "title": "404 • Wrong turn",
+    "description": "This page doesn't exist, you must have gotten lost.",
+    "back": "Return to safety"
+  }
+}
