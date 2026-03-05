@@ -3,10 +3,12 @@
 import { Button } from "@/components/ui/button";
 import { Highlighter } from "@/components/ui/highlighter";
 import { Github } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
-import React from "react";
 
 const Header = () => {
+  const t = useTranslations("header");
+
   return (
     <header
       className="flex flex-col h-screen justify-center gap-10 px-5 scroll-mt-30 sm:px-20 md:px-20 lg:px-35"
@@ -21,26 +23,24 @@ const Header = () => {
         >
           Florian Bardin
         </Highlighter>{" "}
-        – Étudiant en informatique et concepteur d’expériences{" "}
-        <Highlighter action="circle" color="#FFA400" padding={4}>
-          web
-        </Highlighter>
+        –{" "}
+        {t.rich("title", {
+          h: (chunks) => (
+            <Highlighter action="circle" color="#FFA400" padding={4}>
+              {chunks}
+            </Highlighter>
+          ),
+        })}
       </h1>
       <p className="text-muted-foreground text-center font-medium">
-        Actuellement <span className="bright">étudiant</span> à{" "}
-        <span className="bright">Reims</span>, je{" "}
-        <span className="bright">
-          conçois des expériences digitales simples
-        </span>{" "}
-        et <span className="bright">agréables</span> à utiliser. J’aime{" "}
-        <span className="bright">explorer de nouvelles technologies</span> et
-        méthodes de travail pour{" "}
-        <span className="bright">constamment progresser</span>.
+        {t.rich("subtitle", {
+          b: (chunks) => <span className="bright">{chunks}</span>,
+        })}
       </p>
       <Button className="w-fit self-center" asChild>
         <Link href="https://github.com/FlorianBardin">
           <Github className="h-4 w-4" />
-          Mon GitHub
+          {t("github")}
         </Link>
       </Button>
     </header>
