@@ -44,23 +44,21 @@
   "projects": {
     "sectionTitle": "Projets",
     "cta": "Voir sur GitHub",
-    "items": {
-      "portfolio": {
-        "name": "florianbardin.dev",
-        "description": "Site web portfolio regroupant mon parcours, mes projets, mes outils ainsi que mon contact."
-      },
-      "apod": {
-        "name": "APOD Viewer",
-        "description": "Application web de visualisation des données de l'API APOD de la Nasa."
-      },
-      "taskflow": {
-        "name": "Task Flow",
-        "description": "Application web permettant de gérer des tableaux Kanban dans le stockage local du navigateur."
-      },
-      "steamcrud": {
-        "name": "Steam Game CRUD",
-        "description": "Application web CRUD PHP réalisé en duo dans le cadre d'une SAÉ de BUT INFO."
-      }
+    "portfolio": {
+      "name": "florianbardin.dev",
+      "description": "Site web portfolio regroupant mon parcours, mes projets, mes outils ainsi que mon contact."
+    },
+    "apod": {
+      "name": "APOD Viewer",
+      "description": "Application web de visualisation des données de l'API APOD de la Nasa."
+    },
+    "taskflow": {
+      "name": "Task Flow",
+      "description": "Application web permettant de gérer des tableaux Kanban dans le stockage local du navigateur."
+    },
+    "steamcrud": {
+      "name": "Steam Game CRUD",
+      "description": "Application web CRUD PHP réalisé en duo dans le cadre d'une SAÉ de BUT INFO."
     }
   },
   "tools": {
