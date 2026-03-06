@@ -16,30 +16,30 @@
   },
   "journey": {
     "sectionTitle": "Journey",
-    "steps": [
-      {
+    "steps": {
+      "highschool": {
         "title": "High School Diploma 📚",
         "date": "June 2024",
         "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
-        "desc": "Mathematics, Digital Technology & Computer Science"
+        "desc": "Mathematics, Engineering Sciences and Computer Sciences"
       },
-      {
-        "title": "Bachelor's in Computer Science – Year 1 👨‍💻",
+      "but1": {
+        "title": "BUT Computer Science 1st year 👨‍💻",
         "date": "September 2024 - June 2025",
         "location": "IUT Reims-Châlons-Charleville, Reims"
       },
-      {
+      "cellarWorker": {
         "title": "Cellar Worker 🍾",
         "date": "July - August 2025",
         "location": "Champagne Bollinger, Aÿ"
       },
-      {
-        "title": "Bachelor's in Computer Science – Year 2 👨‍💻",
+      "but2": {
+        "title": "BUT Computer Science 2nd year 👨‍💻",
         "date": "September 2025 - June 2026",
         "location": "IUT Reims-Châlons-Charleville, Reims",
-        "desc": "Development specialisation (C++)"
+        "desc": "Development specialization (C++)"
       }
-    ]
+    }
   },
   "projects": {
     "sectionTitle": "Projects",

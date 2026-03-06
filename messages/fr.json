@@ -16,30 +16,30 @@
   },
   "journey": {
     "sectionTitle": "Parcours",
-    "steps": [
-      {
+    "steps": {
+      "highschool": {
         "title": "Baccalauréat Général 📚",
         "date": "Juin 2024",
         "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
         "desc": "Mathématiques, Numérique et Sciences de l'Informatique"
       },
-      {
+      "but1": {
         "title": "BUT Informatique 1ère année 👨‍💻",
         "date": "Septembre 2024 - Juin 2025",
         "location": "IUT Reims-Châlons-Charleville, Reims"
       },
-      {
+      "cellarWorker": {
         "title": "Cuviste 🍾",
         "date": "Juillet - Août 2025",
         "location": "Champagne Bollinger, Aÿ"
       },
-      {
+      "but2": {
         "title": "BUT Informatique 2ème année 👨‍💻",
         "date": "Septembre 2025 - Juin 2026",
         "location": "IUT Reims-Châlons-Charleville, Reims",
         "desc": "Spécialisation développement (C++)"
       }
-    ]
+    }
   },
   "projects": {
     "sectionTitle": "Projets",
