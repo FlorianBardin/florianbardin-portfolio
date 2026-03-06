@@ -29,3 +29,28 @@ export const steps: stepType[] = [
     desc: "Spécilisation développement (C++)",
   },
 ];
+
+export const getSteps = (t: (key: string) => string): stepType[] => [
+  {
+    title: t("steps.highschool.title"),
+    date: t("steps.highschool.date"),
+    location: t("steps.highschool.location"),
+    desc: t("steps.highschool.desc"),
+  },
+  {
+    title: t("steps.but1.title"),
+    date: t("steps.but1.date"),
+    location: t("steps.but1.location"),
+  },
+  {
+    title: t("steps.cellarWorker.title"),
+    date: t("steps.cellarWorker.date"),
+    location: t("steps.cellarWorker.location"),
+  },
+  {
+    title: t("steps.but2.title"),
+    date: t("steps.but2.date"),
+    location: t("steps.but2.location"),
+    desc: t("steps.but2.desc"),
+  },
+];
