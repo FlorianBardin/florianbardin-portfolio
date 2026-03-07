@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header
-      className="flex flex-col h-screen justify-center gap-10 px-5 scroll-mt-30 sm:px-20 md:px-20 lg:px-35"
+      className="flex flex-col h-screen justify-center gap-25 sm:gap-10 px-5 scroll-mt-30 sm:px-20 md:px-20 lg:px-35"
       id="header"
     >
       <h1 className="text-center">
@@ -32,7 +32,7 @@ const Header = () => {
           ),
         })}
       </h1>
-      <p className="text-muted-foreground text-center font-medium">
+      <p className="text-muted-foreground text-center font-medium hidden sm:block">
         {t.rich("subtitle", {
           b: (chunks) => <span className="bright">{chunks}</span>,
         })}
