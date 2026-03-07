@@ -21,17 +21,17 @@ export function ProjectsGrid() {
         className="absolute top-10 lg:top-20 origin-top scale-85 mask-[linear-gradient(to_top,transparent_10%,#000_100%)] transition-all duration-300 ease-out group-hover:scale-90"
       />
     ),
+    vitis: (
+      <Safari
+        url="vitisapi.app"
+        imageSrc="vitis-demo.png"
+        className="absolute top-10 lg:top-20 origin-top scale-85 mask-[linear-gradient(to_top,transparent_10%,#000_100%)] transition-all duration-300 ease-out group-hover:scale-90"
+      />
+    ),
     taskflow: (
       <Safari
         url="task-flow-nine-alpha.vercel.app"
         imageSrc="taskflow-demo.png"
-        className="absolute top-10 lg:top-20 origin-top scale-85 mask-[linear-gradient(to_top,transparent_10%,#000_100%)] transition-all duration-300 ease-out group-hover:scale-90"
-      />
-    ),
-    steamcrud: (
-      <Safari
-        url="steam-game-crud.app"
-        imageSrc="steamcrud-demo.png"
         className="absolute top-10 lg:top-20 origin-top scale-85 mask-[linear-gradient(to_top,transparent_10%,#000_100%)] transition-all duration-300 ease-out group-hover:scale-90"
       />
     ),
