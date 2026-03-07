@@ -1,9 +1,9 @@
 import {
   LucideIcon,
   BookUser,
-  Gamepad2,
   Satellite,
   SquareKanban,
+  Grape,
 } from "lucide-react";
 import { ReactNode } from "react";
 
@@ -40,21 +40,21 @@ export const getProjects = (
     className: "md:col-span-2 lg:col-span-2",
   },
   {
+    Icon: Grape,
+    name: t("vitis.name"),
+    description: t("vitis.description"),
+    href: "https://github.com/FlorianBardin/vitis-api",
+    cta: t("cta"),
+    background: backgrounds.vitis,
+    className: "md:col-span-1 lg:col-span-2",
+  },
+  {
     Icon: SquareKanban,
     name: t("taskflow.name"),
     description: t("taskflow.description"),
     href: "https://github.com/FlorianBardin/task-flow",
     cta: t("cta"),
     background: backgrounds.taskflow,
-    className: "md:col-span-1 lg:col-span-2",
-  },
-  {
-    Icon: Gamepad2,
-    name: t("steamcrud.name"),
-    description: t("steamcrud.description"),
-    href: "https://github.com/FlorianBardin/steam-game-crud",
-    cta: t("cta"),
-    background: backgrounds.steamcrud,
     className: "md:col-span-1 lg:col-span-2",
   },
 ];
