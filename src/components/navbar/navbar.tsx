@@ -2,6 +2,7 @@ import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
 import Link from "next/link";
 import MobileDock from "./mobile-dock";
 import { useTranslations } from "next-intl";
+import { LocaleSwitcher } from "./locale-switcher";
 
 const Navbar = () => {
   const t = useTranslations("navigation");
@@ -64,6 +65,7 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-4">
+          <LocaleSwitcher />
           <AnimatedThemeToggler className="cursor-pointer" />
           <Link href="https://www.linkedin.com/in/florianbardin/">
             <svg
