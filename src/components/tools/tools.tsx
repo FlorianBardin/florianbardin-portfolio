@@ -34,7 +34,7 @@ const Tools = () => {
 
       <div className="grid gap-4 lg:grid-cols-2">
         <ToolsSection title={t("sections.languages")} tools={languages} />
-        <ToolsSection title={t("sections.infra")} tools={webArchitecture} />
+        <ToolsSection title={t("sections.web")} tools={webArchitecture} />
         <ToolsSection title={t("sections.infra")} tools={infraDevOps} />
         <ToolsSection title={t("sections.data")} tools={databaseTools} />
         <ToolsSection
