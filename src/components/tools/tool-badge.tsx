@@ -3,7 +3,7 @@
 import React from "react";
 import { Badge } from "../ui/badge";
 import Image from "next/image";
-import { Tool } from "@/lib/tools";
+import { Tool } from "../../lib/tools";
 import AnimatedContent from "../AnimatedContent";
 
 type ToolBadgeType = {
