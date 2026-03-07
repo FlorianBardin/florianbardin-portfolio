@@ -10,12 +10,8 @@ A portfolio website showcasing my journey, projects, tools, and contact informat
 - **Background**: A section detailing my journey and experience.
 - **Projects**: A grid showcasing my projects.
 - **Tools**: A section grouping different tool categories.
-- **Contact**: A section with my contact details, and a contact form (coming soon).
-
-## ▶️ Coming Soon
-
-- **Contact Form**
-- **English Version**
+- **Contact**: A section with my contact details.
+- **Internationalization**: Support for both English and French languages.
 
 ## 🛠️ Installation & Usage
 
