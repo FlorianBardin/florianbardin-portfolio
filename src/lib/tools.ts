@@ -4,161 +4,65 @@ export type Tool = {
   use: "default" | "secondary";
 };
 
-export const frontTools: Tool[] = [
-  {
-    name: "HTML",
-    image: "/tools/front/html.svg",
-    use: "default",
-  },
-  {
-    name: "CSS",
-    image: "/tools/front/css.svg",
-    use: "default",
-  },
-  {
-    name: "JavaScript",
-    image: "/tools/front/js.png",
-    use: "default",
-  },
-  {
-    name: "TypeScript",
-    image: "/tools/front/ts.png",
-    use: "default",
-  },
-  {
-    name: "React.js",
-    image: "/tools/front/react.png",
-    use: "default",
-  },
-  {
-    name: "Tailwind CSS",
-    image: "/tools/front/tailwind.png",
-    use: "default",
-  },
-  {
-    name: "Shadcn/ui",
-    image: "/tools/front/shadcn.png",
-    use: "default",
-  },
+export const languages: Tool[] = [
+  { name: "TypeScript", image: "/tools/languages/ts.png", use: "default" },
+  { name: "JavaScript", image: "/tools/languages/js.png", use: "default" },
+  { name: "PHP", image: "/tools/languages/php.png", use: "default" },
+  { name: "Python", image: "/tools/languages/python.png", use: "default" },
+  { name: "Golang", image: "/tools/languages/go.png", use: "secondary" },
+  { name: "C++", image: "/tools/languages/cpp.png", use: "secondary" },
+  { name: "Java", image: "/tools/languages/java.png", use: "secondary" },
 ];
 
-export const backTools: Tool[] = [
+export const webArchitecture: Tool[] = [
+  { name: "React.js", image: "/tools/web/react.png", use: "default" },
   {
-    name: "PHP",
-    image: "/tools/back/php.png",
+    name: "Symfony / API Platform",
+    image: "/tools/web/symfony.svg",
     use: "default",
   },
-  {
-    name: "Next.js",
-    image: "/tools/back/next.png",
-    use: "default",
-  },
-  {
-    name: "Node.js",
-    image: "/tools/back/node.svg",
-    use: "secondary",
-  },
-  {
-    name: "Express.js",
-    image: "/tools/back/express.svg",
-    use: "secondary",
-  },
-  {
-    name: "API REST",
-    use: "secondary",
-  },
-  {
-    name: "Symfony",
-    image: "/tools/back/symfony.svg",
-    use: "secondary",
-  },
+  { name: "Spring Boot", image: "/tools/web/spring.png", use: "default" },
+  { name: "PHPUnit / JUnit", use: "default" },
+  { name: "Node.js", image: "/tools/web/node.svg", use: "secondary" },
+  { name: "Next.js", image: "/tools/web/next.png", use: "secondary" },
 ];
 
-export const dataTools: Tool[] = [
+export const infraDevOps: Tool[] = [
   {
-    name: "SQL - PL/SQL",
-    image: "/tools/data/sql.svg",
+    name: "Git (GitHub/GitLab)",
+    image: "/tools/infra/git.png",
     use: "default",
   },
-  {
-    name: "SGBDR (Oracle - MySQL)",
-    image: "/tools/data/sgbd.svg",
-    use: "default",
-  },
-  {
-    name: "NoSQL (MongoDb)",
-    image: "/tools/data/nosql.svg",
-    use: "secondary",
-  },
-  {
-    name: "PowerBI",
-    image: "/tools/data/powerbi.png",
-    use: "secondary",
-  },
+  { name: "Docker", image: "/tools/infra/docker.png", use: "default" },
+  { name: "Linux", image: "/tools/infra/linux.png", use: "default" },
+  { name: "Kubernetes", image: "/tools/infra/k8s.png", use: "secondary" },
+  { name: "Wireshark", image: "/tools/infra/wireshark.png", use: "secondary" },
+  { name: "Protocols (TCP/HTTP)", use: "secondary" },
 ];
 
-export const softwareTools: Tool[] = [
+export const databaseTools: Tool[] = [
+  { name: "PostgreSQL / MySQL", image: "/tools/data/sql.svg", use: "default" },
+  { name: "Oracle (PL/SQL)", image: "/tools/data/oracle.svg", use: "default" },
   {
-    name: "Visual Studio Code",
-    image: "/tools/software/vscode.png",
-    use: "default",
-  },
-  {
-    name: "PHPStorm",
-    image: "/tools/software/phpstorm.png",
-    use: "default",
-  },
-  {
-    name: "Figma",
-    image: "/tools/software/figma.svg",
-    use: "default",
-  },
-  {
-    name: "Adobe Illustrator",
-    image: "/tools/software/illustrator.png",
+    name: "MongoDB (NoSQL)",
+    image: "/tools/data/mongodb.svg",
     use: "secondary",
   },
-  {
-    name: "Adobe Photoshop",
-    image: "/tools/software/photoshop.png",
-    use: "secondary",
-  },
-  {
-    name: "Office 365",
-    image: "/tools/software/office.svg",
-    use: "secondary",
-  },
-  {
-    name: "WebStorm",
-    image: "/tools/software/webstorm.png",
-    use: "secondary",
-  },
+  { name: "PowerBI", image: "/tools/data/powerbi.png", use: "secondary" },
 ];
 
-export const otherTools: Tool[] = [
+export const projectManagement: Tool[] = [
+  { name: "Agile (Scrum/Kanban)", use: "default" },
+  { name: "UML / Merise", use: "default" },
   {
-    name: "Python",
-    image: "/tools/other/python.png",
+    name: "MS Planner",
+    image: "/tools/project/ms.png",
     use: "default",
   },
+  { name: "Figma", image: "/tools/project/figma.svg", use: "default" },
   {
-    name: "Git",
-    image: "/tools/other/git.png",
-    use: "default",
-  },
-  {
-    name: "GitHub",
-    image: "/tools/other/github.svg",
-    use: "default",
-  },
-  {
-    name: "GitLab",
-    image: "/tools/other/gitlab.svg",
-    use: "default",
-  },
-  {
-    name: "Linux",
-    image: "/tools/other/linux.png",
-    use: "default",
+    name: "Trello",
+    image: "/tools/project/trello.png",
+    use: "secondary",
   },
 ];
