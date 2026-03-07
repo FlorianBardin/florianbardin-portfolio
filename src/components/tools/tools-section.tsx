@@ -1,5 +1,5 @@
 import React from "react";
-import { Tool } from "@/lib/tools";
+import { Tool } from "../../lib/tools";
 import ToolBadge from "./tool-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 

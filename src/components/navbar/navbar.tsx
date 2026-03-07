@@ -1,9 +1,12 @@
 import { AnimatedThemeToggler } from "@/components/ui/animated-theme-toggler";
-import React from "react";
 import Link from "next/link";
 import MobileDock from "./mobile-dock";
+import { useTranslations } from "next-intl";
+import { LocaleSwitcher } from "./locale-switcher";
 
 const Navbar = () => {
+  const t = useTranslations("navigation");
+
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center backdrop-blur-md bg-background/80 py-6 px-8 md:px-16 lg:px-28 border-b">
@@ -48,20 +51,21 @@ const Navbar = () => {
 
         <nav className="hidden md:flex gap-6 text-muted-foreground font-medium">
           <Link href="#journey" className="hover-link">
-            Parcours
+            {t("journey")}
           </Link>
           <Link href="#projects" className="hover-link">
-            Projets
+            {t("projects")}
           </Link>
           <Link href="#tools" className="hover-link">
-            Outils
+            {t("tools")}
           </Link>
           <Link href="#contact" className="hover-link">
-            Contact
+            {t("contact")}
           </Link>
         </nav>
 
         <div className="flex items-center gap-4">
+          <LocaleSwitcher />
           <AnimatedThemeToggler className="cursor-pointer" />
           <Link href="https://www.linkedin.com/in/florianbardin/">
             <svg

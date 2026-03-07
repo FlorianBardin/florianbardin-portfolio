@@ -1,9 +1,11 @@
-import React from "react";
-import { steps } from "@/lib/steps";
+import { getSteps } from "@/lib/steps";
 import TimelineCard from "./timeline-card";
+import { useTranslations } from "next-intl";
 
 const Timeline = () => {
-  const timelineSteps = steps;
+  const t = useTranslations("journey");
+  const timelineSteps = getSteps(t);
+
   return (
     <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-3">
       {timelineSteps.toReversed().map((step, i) => (

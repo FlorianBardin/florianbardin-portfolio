@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Florian Bardin",
+    "description": "My name is Florian Bardin, passionate about web development and a computer science student at IUT de Reims."
+  },
+  "navigation": {
+    "journey": "Journey",
+    "projects": "Projects",
+    "tools": "Tools",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Computer science student and <h>web</h> experience designer",
+    "subtitle": "Currently a <b>student</b> in <b>Reims</b>, I <b>craft simple digital experiences</b> that are <b>pleasant</b> to use. I enjoy <b>exploring new technologies</b> and working methods to <b>constantly improve</b>.",
+    "github": "My GitHub"
+  },
+  "journey": {
+    "sectionTitle": "Journey",
+    "steps": {
+      "highschool": {
+        "title": "High School Diploma 📚",
+        "date": "June 2024",
+        "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
+        "desc": "Mathematics, Engineering Sciences and Computer Sciences"
+      },
+      "but1": {
+        "title": "BUT Computer Science 1st year 👨‍💻",
+        "date": "September 2024 - June 2025",
+        "location": "IUT Reims-Châlons-Charleville, Reims"
+      },
+      "cellarWorker": {
+        "title": "Cellar Worker 🍾",
+        "date": "July - August 2025",
+        "location": "Champagne Bollinger, Aÿ"
+      },
+      "but2": {
+        "title": "BUT Computer Science 2nd year 👨‍💻",
+        "date": "September 2025 - June 2026",
+        "location": "IUT Reims-Châlons-Charleville, Reims",
+        "desc": "Development specialization (C++)"
+      }
+    }
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "cta": "View on GitHub",
+    "portfolio": {
+      "name": "florianbardin.dev",
+      "description": "Portfolio website showcasing my journey, projects, tools and contact information."
+    },
+    "apod": {
+      "name": "APOD Viewer",
+      "description": "Web application to visualise data from NASA's APOD API."
+    },
+    "vitis": {
+      "name": "Vitis API",
+      "description": "A robust Spring Boot API implementing clean architecture, dynamic filtering (JPA Specs), standardized error reporting (RFC 7807), and secure DTO mapping."
+    },
+    "taskflow": {
+      "name": "Task Flow",
+      "description": "Web application for managing Kanban boards stored in the browser's local storage."
+    }
+  },
+  "tools": {
+    "sectionTitle": "Tools",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
+    "sections": {
+      "languages": "📝 Languages",
+      "infra": "🛠️ Infrastructure & DevOps",
+      "data": "🗄️ Data Management",
+      "web": "🌐 Web Architecture & Quality",
+      "project": "📆 Methodology & Design"
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Get in touch 📲",
+    "description": "I would be pleased to learn more about your projects. To do so, you can reach me on <linkedin>Linkedin</linkedin> or directly via email at <email>fbardin51@gmail.com</email>."
+  },
+  "footer": {
+    "copyright": "© 2025 Florian Bardin. All rights reserved."
+  },
+  "notFound": {
+    "title": "404 • Wrong turn",
+    "description": "This page doesn't exist, you must have gotten lost.",
+    "back": "Return to safety"
+  }
+}

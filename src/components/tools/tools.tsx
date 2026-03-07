@@ -1,16 +1,18 @@
 import ToolsSection from "@/components/tools/tools-section";
 import { Badge } from "@/components/ui/badge";
 import {
-  backTools,
-  dataTools,
-  frontTools,
-  otherTools,
-  softwareTools,
-} from "@/lib/tools";
+  databaseTools,
+  infraDevOps,
+  languages,
+  projectManagement,
+  webArchitecture,
+} from "../../lib/tools";
 import Image from "next/image";
-import React from "react";
+import { useTranslations } from "next-intl";
 
 const Tools = () => {
+  const t = useTranslations("tools");
+
   return (
     <section className="flex flex-col gap-4 scroll-mt-20" id="tools">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between lg:justify-start lg:gap-4">
@@ -22,23 +24,23 @@ const Tools = () => {
             src="tools.svg"
             alt="Tools logo"
           />
-          <h3>Outils</h3>
+          <h3>{t("sectionTitle")}</h3>
         </div>
         <div className="space-x-2">
-          <Badge>Utilisation régulière</Badge>
-          <Badge variant="secondary">Utilisation occasionel</Badge>
+          <Badge>{t("advanced")}</Badge>
+          <Badge variant="secondary">{t("intermediate")}</Badge>
         </div>
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <ToolsSection title="🎨 Front-end" tools={frontTools} />
-        <ToolsSection title="🛠️ Back-end" tools={backTools} />
-        <ToolsSection title="🗄️ Bases de données" tools={dataTools} />
-        <ToolsSection title="🧰 Logiciels" tools={softwareTools} />
+        <ToolsSection title={t("sections.languages")} tools={languages} />
+        <ToolsSection title={t("sections.web")} tools={webArchitecture} />
+        <ToolsSection title={t("sections.infra")} tools={infraDevOps} />
+        <ToolsSection title={t("sections.data")} tools={databaseTools} />
         <ToolsSection
           className="lg:col-span-2"
-          title="Autres"
-          tools={otherTools}
+          title={t("sections.project")}
+          tools={projectManagement}
         />
       </div>
     </section>
