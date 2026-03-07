@@ -63,14 +63,14 @@
   },
   "tools": {
     "sectionTitle": "Tools",
-    "regularUsage": "Regular use",
-    "occasionalUsage": "Occasional use",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
     "sections": {
-      "frontend": "🎨 Front-end",
-      "backend": "🛠️ Back-end",
-      "databases": "🗄️ Databases",
-      "software": "🧰 Software",
-      "other": "Other"
+      "languages": "📝 Languages",
+      "infra": "🛠️ Infrastructure & DevOps",
+      "data": "🗄️ Data Management",
+      "web": "🌐 Web Architecture & Quality",
+      "project": "📆 Methodology & Design"
     }
   },
   "contact": {
