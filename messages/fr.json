@@ -52,13 +52,13 @@
       "name": "APOD Viewer",
       "description": "Application web de visualisation des données de l'API APOD de la Nasa."
     },
+    "vitis": {
+      "name": "Vitis API",
+      "description": "API Spring Boot robuste mettant en œuvre la Clean Architecture, le filtrage dynamique (JPA Specs), la gestion standardisée des erreurs (RFC 7807) et le mapping sécurisé des DTO."
+    },
     "taskflow": {
       "name": "Task Flow",
       "description": "Application web permettant de gérer des tableaux Kanban dans le stockage local du navigateur."
-    },
-    "steamcrud": {
-      "name": "Steam Game CRUD",
-      "description": "Application web CRUD PHP réalisé en duo dans le cadre d'une SAÉ de BUT INFO."
     }
   },
   "tools": {
