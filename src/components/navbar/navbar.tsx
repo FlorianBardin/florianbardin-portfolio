@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center backdrop-blur-md bg-background/80 py-6 px-8 md:px-16 lg:px-28 border-b">
+      <div className="fixed top-0 left-0 right-0 z-50 flex items-center backdrop-blur-md bg-background/80 py-5 px-8 md:px-16 lg:px-28 border-b">
         <Link href="#header">
           <svg
             className="h-6 w-6"
@@ -49,7 +49,7 @@ const Navbar = () => {
           </svg>
         </Link>
 
-        <nav className="hidden md:flex gap-6 text-muted-foreground font-medium">
+        <nav className="hidden md:flex gap-6 text-muted-foreground font-medium absolute left-1/2 -translate-x-1/2">
           <Link href="#journey" className="hover-link">
             {t("journey")}
           </Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
           </Link>
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 ml-auto">
           <LocaleSwitcher />
           <AnimatedThemeToggler className="cursor-pointer" />
           <Link href="https://www.linkedin.com/in/florianbardin/">
