@@ -79,7 +79,19 @@
     "description": "I would be pleased to learn more about your projects. To do so, you can reach me on <linkedin>Linkedin</linkedin> or directly via email at <email>fbardin51@gmail.com</email>."
   },
   "footer": {
-    "copyright": "© 2025 Florian Bardin. All rights reserved."
+    "copyright": "© 2025 Florian Bardin. All rights reserved.",
+    "legal": "Legal Notices",
+    "legalContent": {
+      "title": "Legal Notices",
+      "editor": "Website Publisher",
+      "editorText": "Florian Bardin,<b></b> Reims, France.<b></b> Contact: fbardin51@gmail.com",
+      "hosting": "Hosting",
+      "hostingText": "This website is hosted by Vercel Inc.,<b></b> 440 N Barranca Ave #4133, Covina,<b></b> CA 91723, USA.",
+      "privacy": "Intellectual Property",
+      "privacyText": "The source code is licensed under Apache 2.0. Original content is the property of Florian Bardin.",
+      "rgpd": "Personal Data and Cookies",
+      "rgpdText": "This website is designed to respect privacy. It does not collect any personal data, uses no trackers (cookies), and does not have a contact form. Browsing is completely anonymous."
+    }
   },
   "notFound": {
     "title": "404 • Wrong turn",

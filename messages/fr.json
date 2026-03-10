@@ -79,7 +79,19 @@
     "description": "Je serais ravi d'en savoir plus sur vos projets. Pour cela, vous pouvez me joindre sur <linkedin>Linkedin</linkedin> ou bien directement via mon mail <email>fbardin51@gmail.com</email>."
   },
   "footer": {
-    "copyright": "© 2025 Florian Bardin. Tous droits réservés."
+    "copyright": "© 2025 Florian Bardin. Tous droits réservés.",
+    "legal": "Mentions Légales",
+    "legalContent": {
+      "title": "Mentions Légales",
+      "editor": "Éditeur du site",
+      "editorText": "Florian Bardin,<b></b> Reims, France.<b></b> Contact : fbardin51@gmail.com",
+      "hosting": "Hébergement",
+      "hostingText": "Ce site est hébergé par Vercel Inc.,<b></b> 440 N Barranca Ave #4133, Covina,<b></b> CA 91723, USA.",
+      "privacy": "Propriété Intellectuelle",
+      "privacyText": "Le code source est sous licence Apache 2.0. Les contenus originaux sont la propriété de Florian Bardin.",
+      "rgpd": "Données personnelles et Cookies",
+      "rgpdText": "Ce site est conçu pour respecter la vie privée. Il ne collecte aucune donnée personnelle, n'utilise aucun traceur (cookies) et ne dispose d'aucun formulaire. La navigation est totalement anonyme."
+    }
   },
   "notFound": {
     "title": "404 • Mauvaise route",
