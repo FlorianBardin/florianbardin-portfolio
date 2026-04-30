@@ -57,9 +57,9 @@
       "name": "Vitis API",
       "description": "A robust Spring Boot API implementing clean architecture, dynamic filtering (JPA Specs), standardized error reporting (RFC 7807), and secure DTO mapping."
     },
-    "taskflow": {
-      "name": "Task Flow",
-      "description": "Web application for managing Kanban boards stored in the browser's local storage."
+    "foehn": {
+      "name": "Foehn",
+      "description": "A self-hosted Go-based PaaS platform that automates the deployment of Git projects using a custom orchestration daemon, an integrated reverse proxy (Caddy), and a CLI."
     }
   },
   "tools": {
