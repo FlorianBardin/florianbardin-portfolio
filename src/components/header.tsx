@@ -32,14 +32,14 @@ const Header = () => {
           b: (chunks) => <span className="bright">{chunks}</span>,
         })}
       </p>
-      <div className="flex justify-center gap-4">
+      <div className="flex flex-col sm:flex-row justify-center gap-4">
         <Button className="w-fit self-center" asChild>
           <Link href="https://github.com/FlorianBardin">
             <Github className="h-4 w-4" />
             {t("github")}
           </Link>
         </Button>
-        <Button variant={"secondary"} className="w-fit self-center" asChild>
+        <Button variant={"ghost"} className="w-fit self-center" asChild>
           <a href="/resume.pdf" download>
             <FileDown className="h-4 w-4" />
             {t("resume")}
