@@ -15,18 +15,13 @@ const Header = () => {
       id="header"
     >
       <h1 className="text-center">
-        <Highlighter
-          iterations={2}
-          action="underline"
-          color="#FFA400"
-          padding={0}
-        >
+        <Highlighter iterations={2} action="box" color="#FFA400" padding={4}>
           Florian Bardin
         </Highlighter>{" "}
         –{" "}
         {t.rich("title", {
           h: (chunks) => (
-            <Highlighter action="circle" color="#FFA400" padding={4}>
+            <Highlighter action="underline" color="#FFA400">
               {chunks}
             </Highlighter>
           ),
