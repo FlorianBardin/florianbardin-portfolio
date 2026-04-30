@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Highlighter } from "@/components/ui/highlighter";
-import { Github } from "lucide-react";
+import { FileDown, Github } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -32,12 +32,20 @@ const Header = () => {
           b: (chunks) => <span className="bright">{chunks}</span>,
         })}
       </p>
-      <Button className="w-fit self-center" asChild>
-        <Link href="https://github.com/FlorianBardin">
-          <Github className="h-4 w-4" />
-          {t("github")}
-        </Link>
-      </Button>
+      <div className="flex justify-center gap-4">
+        <Button className="w-fit self-center" asChild>
+          <Link href="https://github.com/FlorianBardin">
+            <Github className="h-4 w-4" />
+            {t("github")}
+          </Link>
+        </Button>
+        <Button variant={"secondary"} className="w-fit self-center" asChild>
+          <a href="/resume.pdf" download>
+            <FileDown className="h-4 w-4" />
+            {t("resume")}
+          </a>
+        </Button>
+      </div>
     </header>
   );
 };
