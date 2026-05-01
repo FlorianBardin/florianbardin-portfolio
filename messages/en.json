@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Florian Bardin",
-    "description": "My name is Florian Bardin, passionate about web development and a computer science student at IUT de Reims."
+    "description": "As a computer science student at the IUT in Reims and a future engineering student at IMT Atlantique, I specialize in designing robust software solutions for the sovereign cloud and the space sector."
   },
   "navigation": {
     "journey": "Journey",
@@ -47,11 +47,11 @@
     "cta": "View on GitHub",
     "portfolio": {
       "name": "florianbardin.dev",
-      "description": "Portfolio website showcasing my journey, projects, tools and contact information."
+      "description": "Portfolio built with Next.js, designed for performance and SEO (SSR), with full multilingual support (i18n)."
     },
     "apod": {
       "name": "APOD Viewer",
-      "description": "Web application to visualise data from NASA's APOD API."
+      "description": "A React application that uses the APOD API, featuring a search history system dating back to 1995 and performance optimization via custom hooks (debouncing)."
     },
     "vitis": {
       "name": "Vitis API",
