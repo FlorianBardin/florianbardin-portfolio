@@ -38,6 +38,7 @@ export const infraDevOps: Tool[] = [
   { name: "Kubernetes", image: "/tools/infra/k8s.png", use: "secondary" },
   { name: "Wireshark", image: "/tools/infra/wireshark.png", use: "secondary" },
   { name: "Protocols (TCP/HTTP)", use: "secondary" },
+  { name: "GitHub Actions", image: "/tools/infra/gha.png", use: "secondary" },
 ];
 
 export const databaseTools: Tool[] = [
