@@ -19,7 +19,7 @@ type TimelineCardProps = {
 const TimelineCard = ({ step }: TimelineCardProps) => {
   return (
     <AnimatedContent>
-      <Card className="h-full">
+      <Card className="w-[325px] h-full">
         <CardHeader>
           <div className="flex flex-col-reverse justify-start gap-5">
             <CardTitle>{step.title}</CardTitle>

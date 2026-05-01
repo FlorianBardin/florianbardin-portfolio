@@ -7,7 +7,7 @@ const Timeline = () => {
   const timelineSteps = getSteps(t);
 
   return (
-    <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-3">
+    <div className="flex overflow-scroll gap-3">
       {timelineSteps.toReversed().map((step, i) => (
         <TimelineCard key={i} step={step} />
       ))}
