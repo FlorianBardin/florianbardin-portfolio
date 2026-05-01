@@ -71,7 +71,7 @@
     },
     "foehn": {
       "name": "Foehn",
-      "description": "Plateforme PaaS auto-hébergeable en Go, automatisant le déploiement de projets Git via un démon d'orchestration sur mesure, reverse-proxy intégré (Caddy) et un CLI."
+      "description": "Plateforme PaaS auto-hébergeable en Go, automatisant le déploiement de projets Git via un démon d'orchestration sur mesure, un reverse-proxy (Caddy) et un CLI."
     }
   },
   "tools": {

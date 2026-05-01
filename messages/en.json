@@ -71,7 +71,7 @@
     },
     "foehn": {
       "name": "Foehn",
-      "description": "A self-hosted Go-based PaaS platform that automates the deployment of Git projects using a custom orchestration daemon, an integrated reverse proxy (Caddy), and a CLI."
+      "description": "A self-hosted Go-based PaaS platform that automates the deployment of Git projects using a custom orchestration daemon, a reverse proxy (Caddy), and a CLI."
     }
   },
   "tools": {
