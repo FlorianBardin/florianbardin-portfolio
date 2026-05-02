@@ -1,10 +1,4 @@
-import {
-  LucideIcon,
-  BookUser,
-  Satellite,
-  SquareKanban,
-  Grape,
-} from "lucide-react";
+import { LucideIcon, BookUser, Satellite, Grape, CloudCog } from "lucide-react";
 import { ReactNode } from "react";
 
 export type ProjectType = {
@@ -22,6 +16,15 @@ export const getProjects = (
   backgrounds: Record<string, ReactNode>,
 ): ProjectType[] => [
   {
+    Icon: CloudCog,
+    name: t("foehn.name"),
+    description: t("foehn.description"),
+    href: "https://github.com/FlorianBardin/foehn",
+    cta: t("cta"),
+    background: backgrounds.foehn,
+    className: "md:col-span-2 lg:col-span-2",
+  },
+  {
     Icon: BookUser,
     name: t("portfolio.name"),
     description: t("portfolio.description"),
@@ -37,7 +40,7 @@ export const getProjects = (
     href: "https://github.com/FlorianBardin/APOD-viewer",
     cta: t("cta"),
     background: backgrounds.apod,
-    className: "md:col-span-2 lg:col-span-2",
+    className: "md:col-span-1 lg:col-span-2",
   },
   {
     Icon: Grape,
@@ -46,15 +49,6 @@ export const getProjects = (
     href: "https://github.com/FlorianBardin/vitis-api",
     cta: t("cta"),
     background: backgrounds.vitis,
-    className: "md:col-span-1 lg:col-span-2",
-  },
-  {
-    Icon: SquareKanban,
-    name: t("taskflow.name"),
-    description: t("taskflow.description"),
-    href: "https://github.com/FlorianBardin/task-flow",
-    cta: t("cta"),
-    background: backgrounds.taskflow,
     className: "md:col-span-1 lg:col-span-2",
   },
 ];

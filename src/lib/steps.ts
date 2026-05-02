@@ -53,4 +53,16 @@ export const getSteps = (t: (key: string) => string): stepType[] => [
     location: t("steps.but2.location"),
     desc: t("steps.but2.desc"),
   },
+  {
+    title: t("steps.internship.title"),
+    date: t("steps.internship.date"),
+    location: t("steps.internship.location"),
+    desc: t("steps.internship.desc"),
+  },
+  {
+    title: t("steps.imt.title"),
+    date: t("steps.imt.date"),
+    location: t("steps.imt.location"),
+    desc: t("steps.imt.desc"),
+  },
 ];

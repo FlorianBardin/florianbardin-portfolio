@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Florian Bardin",
-    "description": "Je m'appelle Florian Bardin, passioné par le développement web et étudiant en informatique à l'IUT de Reims."
+    "description": "Étudiant en informatique à l'IUT de Reims et futur élève-ingénieur à l'IMT Atlantique, je me spécialise dans la conception de solutions logicielles robustes dédiées au Cloud souverain et au secteur spatial."
   },
   "navigation": {
     "journey": "Parcours",
@@ -10,9 +10,10 @@
     "contact": "Contact"
   },
   "header": {
-    "title": "Étudiant en informatique et concepteur d'expériences <h>web</h>",
-    "subtitle": "Actuellement <b>étudiant</b> à <b>Reims</b>, je <b>conçois des expériences digitales simples</b> et <b>agréables</b> à utiliser. J'aime <b>explorer de nouvelles technologies</b> et méthodes de travail pour <b>constamment progresser</b>.",
-    "github": "Mon GitHub"
+    "title": "Engagé pour la souveraineté technologique, du <h>Cloud</h> au <h>spatial</h>.",
+    "subtitle": "Actuellement <b>étudiant à Reims</b> et <b>futur élève ingénieur à l'IMT Atlantique</b>, je conçois des outils simples et robustes. Je porte un intérêt majeur au <b>Cloud souverain</b> ainsi qu'au <b>secteur spatial</b>, deux piliers essentiels pour garantir <b>l'indépendance</b> et <b>la sécurité</b> de nos <b>domaines stratégiques</b>.",
+    "github": "Mon GitHub",
+    "resume": "Mon CV (Anglais)"
   },
   "journey": {
     "sectionTitle": "Parcours",
@@ -38,6 +39,18 @@
         "date": "Septembre 2025 - Juin 2026",
         "location": "IUT Reims-Châlons-Charleville, Reims",
         "desc": "Spécialisation développement (C++)"
+      },
+      "internship": {
+        "title": "Stage - Back-end 🏢",
+        "date": "Avril - Juin 2026",
+        "location": "Alphamosa, Reims",
+        "desc": "Développement d'outils internes avec PHP et un framework de l'entreprise"
+      },
+      "imt": {
+        "title": "Ingénieur par apprentissage 🏫",
+        "date": "Septembre 2026 - Juin 2029",
+        "location": "IMT Atlantique",
+        "desc": "Spécialité informatique, réseaux, télécommunications"
       }
     }
   },
@@ -46,19 +59,19 @@
     "cta": "Voir sur GitHub",
     "portfolio": {
       "name": "florianbardin.dev",
-      "description": "Site web portfolio regroupant mon parcours, mes projets, mes outils ainsi que mon contact."
+      "description": "Portfolio réalisé avec Next.js, conçu pour la performance et le SEO (SSR), intégrant un support multilingue (i18n) complet."
     },
     "apod": {
       "name": "APOD Viewer",
-      "description": "Application web de visualisation des données de l'API APOD de la Nasa."
+      "description": "Application React exploitant l'API APOD, intégrant un système de navigation historique depuis 1995 et une optimisation des performances via des hooks personnalisés (debouncing)."
     },
     "vitis": {
       "name": "Vitis API",
       "description": "API Spring Boot robuste mettant en œuvre la Clean Architecture, le filtrage dynamique (JPA Specs), la gestion standardisée des erreurs (RFC 7807) et le mapping sécurisé des DTO."
     },
-    "taskflow": {
-      "name": "Task Flow",
-      "description": "Application web permettant de gérer des tableaux Kanban dans le stockage local du navigateur."
+    "foehn": {
+      "name": "Foehn",
+      "description": "Plateforme PaaS auto-hébergeable en Go, automatisant le déploiement de projets Git via un démon d'orchestration sur mesure, un reverse-proxy (Caddy) et un CLI."
     }
   },
   "tools": {
@@ -79,7 +92,7 @@
     "description": "Je serais ravi d'en savoir plus sur vos projets. Pour cela, vous pouvez me joindre sur <linkedin>Linkedin</linkedin> ou bien directement via mon mail <email>fbardin51@gmail.com</email>."
   },
   "footer": {
-    "copyright": "© 2025 Florian Bardin. Tous droits réservés.",
+    "copyright": "© 2025 - 2026 Florian Bardin. Tous droits réservés.",
     "legal": "Mentions Légales",
     "legalContent": {
       "title": "Mentions Légales",

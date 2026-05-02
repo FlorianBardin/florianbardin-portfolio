@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Florian Bardin",
-    "description": "My name is Florian Bardin, passionate about web development and a computer science student at IUT de Reims."
+    "description": "As a computer science student at the IUT in Reims and a future engineering student at IMT Atlantique, I specialize in designing robust software solutions for the sovereign cloud and the space sector."
   },
   "navigation": {
     "journey": "Journey",
@@ -10,9 +10,10 @@
     "contact": "Contact"
   },
   "header": {
-    "title": "Computer science student and <h>web</h> experience designer",
-    "subtitle": "Currently a <b>student</b> in <b>Reims</b>, I <b>craft simple digital experiences</b> that are <b>pleasant</b> to use. I enjoy <b>exploring new technologies</b> and working methods to <b>constantly improve</b>.",
-    "github": "My GitHub"
+    "title": "Committed to technological sovereignty, from <h>Cloud</h> to <h>space</h>.",
+    "subtitle": "Currently a <b>student in Reims</b> and a <b>future engineering student at IMT Atlantique</b>, I design simple and robust tools. I have a strong interest in <b>sovereign cloud</b> and the <b>space sector</b>, two essential pillars for ensuring the <b>independence</b> and <b>security</b> of our <b>strategic areas</b>.",
+    "github": "My GitHub",
+    "resume": "My Resume (English)"
   },
   "journey": {
     "sectionTitle": "Journey",
@@ -38,6 +39,18 @@
         "date": "September 2025 - June 2026",
         "location": "IUT Reims-Châlons-Charleville, Reims",
         "desc": "Development specialization (C++)"
+      },
+      "internship": {
+        "title": "Internship - Back-end 🏢",
+        "date": "April - June 2026",
+        "location": "Alphamosa, Reims",
+        "desc": "Development of internal tools with PHP and the company's framework"
+      },
+      "imt": {
+        "title": "Engineer by Apprenticeship 🏫",
+        "date": "September 2026 - June 2029",
+        "location": "IMT Atlantique",
+        "desc": "Computer Science, Networks, Telecommunications specialization"
       }
     }
   },
@@ -46,19 +59,19 @@
     "cta": "View on GitHub",
     "portfolio": {
       "name": "florianbardin.dev",
-      "description": "Portfolio website showcasing my journey, projects, tools and contact information."
+      "description": "Portfolio built with Next.js, designed for performance and SEO (SSR), with full multilingual support (i18n)."
     },
     "apod": {
       "name": "APOD Viewer",
-      "description": "Web application to visualise data from NASA's APOD API."
+      "description": "A React application that uses the APOD API, featuring a search history system dating back to 1995 and performance optimization via custom hooks (debouncing)."
     },
     "vitis": {
       "name": "Vitis API",
       "description": "A robust Spring Boot API implementing clean architecture, dynamic filtering (JPA Specs), standardized error reporting (RFC 7807), and secure DTO mapping."
     },
-    "taskflow": {
-      "name": "Task Flow",
-      "description": "Web application for managing Kanban boards stored in the browser's local storage."
+    "foehn": {
+      "name": "Foehn",
+      "description": "A self-hosted Go-based PaaS platform that automates the deployment of Git projects using a custom orchestration daemon, a reverse proxy (Caddy), and a CLI."
     }
   },
   "tools": {
@@ -79,7 +92,7 @@
     "description": "I would be pleased to learn more about your projects. To do so, you can reach me on <linkedin>Linkedin</linkedin> or directly via email at <email>fbardin51@gmail.com</email>."
   },
   "footer": {
-    "copyright": "© 2025 Florian Bardin. All rights reserved.",
+    "copyright": "© 2025 - 2026 Florian Bardin. All rights reserved.",
     "legal": "Legal Notices",
     "legalContent": {
       "title": "Legal Notices",

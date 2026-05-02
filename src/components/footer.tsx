@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer className="flex justify-center items-center border-t border-border">
-      <p className="text-muted-foreground p-6 pb-25 md:pb-6">
+      <p className="text-center text-muted-foreground p-6 pb-25 md:pb-6">
         {t("copyright")} • <LegalNotices />
       </p>
     </footer>
