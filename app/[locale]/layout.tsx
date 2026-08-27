@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Florian Bardin",
   description:
-    "Je m'appelle Florian Bardin, passioné par le Cloud et le New Space, futur élève ingénieur à l'IMT Atlantique.",
+    "Je m'appelle Florian Bardin, passioné par le Cloud, élève ingénieur à l'IMT Atlantique.",
 };
 
 export default async function RootLayout({
