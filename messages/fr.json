@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Florian Bardin",
-    "description": "Étudiant en informatique à l'IUT de Reims et futur élève-ingénieur à l'IMT Atlantique, je me spécialise dans la conception de solutions logicielles robustes dédiées au Cloud souverain et au secteur spatial."
+    "description": "Étudiant en informatique à l'IUT de Reims et élève-ingénieur à l'IMT Atlantique, je me spécialise dans la conception de solutions robustes dédiées au Cloud."
   },
   "navigation": {
     "journey": "Parcours",
@@ -10,8 +10,8 @@
     "contact": "Contact"
   },
   "header": {
-    "title": "Engagé pour la souveraineté technologique, du <h>Cloud</h> au <h>spatial</h>.",
-    "subtitle": "Actuellement <b>étudiant à Reims</b> et <b>futur élève ingénieur à l'IMT Atlantique</b>, je conçois des outils simples et robustes. Je porte un intérêt majeur au <b>Cloud souverain</b> ainsi qu'au <b>secteur spatial</b>, deux piliers essentiels pour garantir <b>l'indépendance</b> et <b>la sécurité</b> de nos <b>domaines stratégiques</b>.",
+    "title": "Élève ingénieur à l'IMT Atlantique tourné vers le <h>Cloud</h>",
+    "subtitle": "Actuellement en <b>formation d’ingénieur à l'IMT Atlantique</b>, j’explore l’écosystème <b>Cloud</b> dans sa globalité, de la <b>conception logicielle</b> à la mise en place <b>d'infrastructures</b>.",
     "github": "Mon GitHub",
     "resume": "Mon CV (Anglais)"
   },
