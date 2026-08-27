@@ -9,8 +9,9 @@ export const languages: Tool[] = [
   { name: "JavaScript", image: "/tools/languages/js.png", use: "default" },
   { name: "PHP", image: "/tools/languages/php.png", use: "default" },
   { name: "Python", image: "/tools/languages/python.png", use: "default" },
+  { name: "C++", image: "/tools/languages/cpp.png", use: "default" },
+  { name: "Bash", image: "/tools/languages/bash.png", use: "secondary" },
   { name: "Golang", image: "/tools/languages/go.png", use: "secondary" },
-  { name: "C++", image: "/tools/languages/cpp.png", use: "secondary" },
   { name: "Java", image: "/tools/languages/java.png", use: "secondary" },
 ];
 
@@ -21,8 +22,8 @@ export const webArchitecture: Tool[] = [
     image: "/tools/web/symfony.svg",
     use: "default",
   },
-  { name: "Spring Boot", image: "/tools/web/spring.png", use: "default" },
-  { name: "PHPUnit / JUnit", use: "default" },
+  { name: "PHPUnit", use: "default" },
+  { name: "Spring Boot", image: "/tools/web/spring.png", use: "secondary" },
   { name: "Node.js", image: "/tools/web/node.svg", use: "secondary" },
   { name: "Next.js", image: "/tools/web/next.png", use: "secondary" },
 ];
@@ -36,7 +37,6 @@ export const infraDevOps: Tool[] = [
   { name: "Docker", image: "/tools/infra/docker.png", use: "default" },
   { name: "Linux", image: "/tools/infra/linux.png", use: "default" },
   { name: "Kubernetes", image: "/tools/infra/k8s.png", use: "secondary" },
-  { name: "Wireshark", image: "/tools/infra/wireshark.png", use: "secondary" },
   { name: "GitHub Actions", image: "/tools/infra/gha.png", use: "secondary" },
 ];
 
