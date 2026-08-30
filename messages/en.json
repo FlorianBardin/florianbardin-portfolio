@@ -21,7 +21,7 @@
       "highschool": {
         "title": "High School Diploma 📚",
         "date": "June 2024",
-        "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
+        "location": "Lycée Polyvalent Stéphane Hessel, Épernay",
         "desc": "Mathematics, Engineering Sciences and Computer Sciences"
       },
       "but1": {
@@ -49,7 +49,7 @@
       "imt": {
         "title": "Engineer by Apprenticeship 🏫",
         "date": "September 2026 - June 2029",
-        "location": "IMT Atlantique",
+        "location": "IMT Atlantique, Rennes",
         "desc": "Computer Science, Networks, Telecommunications specialization"
       }
     }

@@ -21,7 +21,7 @@
       "highschool": {
         "title": "Baccalauréat Général 📚",
         "date": "Juin 2024",
-        "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
+        "location": "Lycée Polyvalent Stéphane Hessel, Épernay",
         "desc": "Mathématiques, Numérique et Sciences de l'Informatique"
       },
       "but1": {
@@ -49,7 +49,7 @@
       "imt": {
         "title": "Ingénieur par apprentissage 🏫",
         "date": "Septembre 2026 - Juin 2029",
-        "location": "IMT Atlantique",
+        "location": "IMT Atlantique, Rennes",
         "desc": "Spécialité informatique, réseaux, télécommunications"
       }
     }
