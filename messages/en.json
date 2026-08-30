@@ -10,8 +10,8 @@
     "contact": "Contact"
   },
   "header": {
-    "title": "Committed to technological sovereignty, from <h>Cloud</h> to <h>space</h>.",
-    "subtitle": "Currently a <b>student in Reims</b> and a <b>future engineering student at IMT Atlantique</b>, I design simple and robust tools. I have a strong interest in <b>sovereign cloud</b> and the <b>space sector</b>, two essential pillars for ensuring the <b>independence</b> and <b>security</b> of our <b>strategic areas</b>.",
+    "title": "Engineering student at IMT Atlantique with a focus on the <h>Cloud</h>",
+    "subtitle": "I am currently pursuing an <b>engineering degree at IMT Atlantique</b>, I am exploring the <b>Cloud</b> ecosystem in its entirety, from <b>software architecture</b> to the implementation of <b>infrastructures</b>.",
     "github": "My GitHub",
     "resume": "My Resume (English)"
   },
@@ -21,7 +21,7 @@
       "highschool": {
         "title": "High School Diploma 📚",
         "date": "June 2024",
-        "location": "Lycée Polyvalent Stéphane Hessel, Epernay",
+        "location": "Lycée Polyvalent Stéphane Hessel, Épernay",
         "desc": "Mathematics, Engineering Sciences and Computer Sciences"
       },
       "but1": {
@@ -41,7 +41,7 @@
         "desc": "Development specialization (C++)"
       },
       "internship": {
-        "title": "Internship - Back-end 🏢",
+        "title": "Web Developer Intern 🏢",
         "date": "April - June 2026",
         "location": "Alphamosa, Reims",
         "desc": "Development of internal tools with PHP and the company's framework"
@@ -49,7 +49,7 @@
       "imt": {
         "title": "Engineer by Apprenticeship 🏫",
         "date": "September 2026 - June 2029",
-        "location": "IMT Atlantique",
+        "location": "IMT Atlantique, Rennes",
         "desc": "Computer Science, Networks, Telecommunications specialization"
       }
     }
